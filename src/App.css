@@ -1,5 +1,11 @@
+body{
+  height: 100vh;
+  background-color: var(--background);
+}
+
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -27,12 +33,19 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root{
+  --font: #FBFBF9;
+  --background: #060606;
+  --subtext: #EAE8DD;
+  --para: #FFFFFF;
+  --button: #8B5CF6;
+}
+@font-face {
+  font-family: haverbooke;
+  /* src: url(./Assets/Fonts/Haverbrooke.ttf); */
+  src: url(./Assets/Fonts/Haverbrooke.ttf);
+}
+@font-face {
+  font-family: arial;
+  src: url(./Assets/Fonts/ARLRDBD.ttf);
 }
