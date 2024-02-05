@@ -3,6 +3,8 @@ import "./Respawn.css"
 import homeImg from "../Assets/Images/Home.png"
 import vector1 from "../Assets/Images/vector(2).png"
 import RespawnNav from '../Components/RespawnNav'
+import Division from '../Components/Division'
+import Highlights from '../Components/Highlights'
 
 function Respawn() {
   return (
@@ -22,6 +24,8 @@ function Respawn() {
                 </div>
             </div>
         </div>
+        <Division/>
+        <Highlights/>
     </div>
   )
 }

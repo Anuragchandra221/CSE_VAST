@@ -1,8 +1,11 @@
 body{
   height: 100vh;
   background-color: var(--background);
+  /* scroll-behavior: smooth; */
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
   height: 100%;

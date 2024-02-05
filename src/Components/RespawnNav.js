@@ -16,13 +16,13 @@ function RespawnNav() {
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mt-2  mt-lg-0">
             <li class="nav-item active mx-lg-3 my-2 my-lg-0">
-                <a id="navlink" class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                <a id="navlink" class="nav-link" href="/">HOME<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-lg-3">
                 <a id="navlink" class="nav-link my-2 my-lg-0" href="#">NEWS</a>
             </li>
             <li class="nav-item mx-lg-3">
-                <a id="navlink" class="nav-link my-2 my-lg-0" href="#">DIVISIONS</a>
+                <a id="navlink" class="nav-link my-2 my-lg-0" href="#division">DIVISIONS</a>
             </li>
             <li class="nav-item mx-lg-3">
                 <a id="navlink" class="nav-link my-2 my-lg-0" href="#">MATCHES</a>
