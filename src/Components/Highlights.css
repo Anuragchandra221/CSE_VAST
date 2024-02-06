@@ -1,0 +1,31 @@
+#highlights{
+    position: relative;
+}
+.vdo-screen{
+    width: 90%;
+    height: 300px;
+}
+.vector-2{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .vector-2{
+        /* vector */
+        display: block;
+        position: absolute;
+        width: 1119.11px;
+        height: 917.42px;
+        left: -35%;
+        top: -5%;
+    
+        background: #480D5E;
+        filter: blur(200px);
+        transform: rotate(46.6deg);
+        z-index: -1;
+    
+    }
+    .vdo-screen{
+        width: 80%;
+        height: 700px;
+    }
+}

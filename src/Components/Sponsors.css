@@ -1,0 +1,14 @@
+.sponsor-image{
+    width: 100px;
+}
+.sponsor-div{
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .sponsor-div{
+        flex-direction: row;
+    }
+    .sponsor-image{
+        width: 150px;
+    }
+}

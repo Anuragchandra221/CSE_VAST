@@ -16,3 +16,11 @@
 .navbar-toggler-icon{
     color: #fff;
 }
+@media screen and (min-width: 768px) {
+    .navbar{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        background-color: transparent;
+    }
+}

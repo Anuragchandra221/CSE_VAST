@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from "../Assets/Images/logo.png"
+import logo from "../Assets/Images/Respawn Logo White (use this)(1).png"
 import "./RespawnNav.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function RespawnNav() {
   return (
-    <nav class="navbar navbar-expand-lg mx-2">
+    <nav class="navbar navbar-expand-lg">
             <img className='logo' src={logo} />
         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon d-flex justify-content-center align-items-center">
@@ -28,7 +28,7 @@ function RespawnNav() {
                 <a id="navlink" class="nav-link my-2 my-lg-0" href="#">MATCHES</a>
             </li>
             <li class="nav-item ml-lg-3">
-                <a id="navlink" class="nav-link my-2 my-lg-0" href="#">CONTACT US</a>
+                <a id="navlink" class="nav-link my-2 my-lg-0" href="#contact">CONTACT US</a>
             </li>
             
             </ul>
