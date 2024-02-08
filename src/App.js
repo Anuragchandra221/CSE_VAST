@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {
   createBrowserRouter, RouterProvider
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <Event event="udzn"/>
   },
   {
-    path: "/canvas2code",
+    path: "/c2c",
     element: <Event event="canvas"/>
   }
 ])
