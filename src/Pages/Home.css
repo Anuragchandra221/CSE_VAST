@@ -1,0 +1,8 @@
+.home{
+    height: 100%;
+    width: 100%;
+}
+.home>p{
+    font-size: 45px;
+    font-weight: 800;
+}

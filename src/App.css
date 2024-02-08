@@ -1,5 +1,6 @@
 body{
   height: 100vh;
+  width: 100%;
   background-color: var(--background);
   /* scroll-behavior: smooth; */
   position: absolute;
@@ -18,7 +19,10 @@ body{
   text-align: center;
   height: 100%;
 }
-
+#root{
+  height: 100%;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
