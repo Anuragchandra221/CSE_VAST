@@ -4,17 +4,12 @@ import {
   createBrowserRouter, RouterProvider
 } from "react-router-dom"
 import Home from './Pages/Home';
-import Respawn from './Pages/Respawn';
 import Event from './Pages/Event';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
-  }, 
-  {
-    path: "/respawn",
-    element: <Respawn/>
   },
   {
     path: "/udzn",
@@ -23,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/c2c",
     element: <Event event="canvas"/>
+  },
+  {
+    path: "/respawnesports",
+    element: <Event event="respawn"/>  
   }
 ])
 
