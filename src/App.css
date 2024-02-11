@@ -49,10 +49,11 @@ body{
   color: #61dafb;
 }
 :root{
-  --font: #FBFBF9;
+  --font: #E3E3E3;
   --background: #060606;
   --subtext: #EAE8DD;
   --para: #FFFFFF;
+  --primary: #FF0000;
   --button: #8B5CF6;
   --secondary: #DCB410;
 }
@@ -64,4 +65,17 @@ body{
 @font-face {
   font-family: arial;
   src: url(./Assets/Fonts/ARLRDBD.ttf);
+}
+
+@font-face {
+  font-family: one-plus-light;
+  src: url(./Assets/Fonts/SlateForOnePlus-Light.ttf);
+}
+@font-face {
+  font-family: one-plus-regular;
+  src: url(./Assets/Fonts/SlateForOnePlus-Regular.ttf);
+}
+@font-face {
+  font-family: one-plus-black;
+  src: url(./Assets/Fonts/SlateForOnePlus-Black.ttf);
 }
