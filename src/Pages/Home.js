@@ -4,6 +4,7 @@ import rectangle from "../Assets/Images/rectangle.png"
 import balloon from "../Assets/Images/balloon.png"
 import Navbar from '../Components/Navbar'
 import Diagonal from '../Components/Diagonal'
+import Footer from '../Components/Footer'
 
 function Home() {
 
@@ -62,9 +63,8 @@ function Home() {
         </div>
       </div>
 {/* 
-      <h2>Hello</h2>
-      <Diagonal/> */}
-      
+      <Diagonal/>
+      <Footer/> */}
     </div>
   )
 }

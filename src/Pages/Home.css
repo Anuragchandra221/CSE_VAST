@@ -17,6 +17,7 @@
 }
 .line-div{
     position: relative;
+    display: none;
 }
 .balloon{
     /* Group */
@@ -79,6 +80,10 @@
             /* bottom: 77.86%; */
             width: 100px;
 
+    }
+    .line-div{
+        display: block;
+        opacity: .44;
     }
     .home-div, .line-div{
         width: 70%;

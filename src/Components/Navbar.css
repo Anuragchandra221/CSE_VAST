@@ -3,16 +3,28 @@
     top: 0px;
     width: 100%;
 }
-a{
+#navbarTogglerDemo01{
+    background-color: var(--background);
+}
+#navlink{
     text-decoration: none;
     color: var(--font);
     font-weight: 800;
     font-family: one-plus-black;
 }
-.active{
+#navlink:hover{
     color: var(--primary);
 }
+#active{
+    color: var(--primary);text-decoration: none;
+    /* color: var(--font); */
+    font-weight: 800;
+    font-family: one-plus-black;
+}
 @media screen and (min-width: 768px) {
+    #navbarTogglerDemo01{
+        background-color: rgba(0,0,0,0);
+    }
     #navbar{
         width: 70%;
     }

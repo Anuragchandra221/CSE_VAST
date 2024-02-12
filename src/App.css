@@ -56,6 +56,11 @@ body{
   --primary: #FF0000;
   --button: #8B5CF6;
   --secondary: #DCB410;
+  -webkit-text-stroke: inherit;
+  -webkit-text-stroke: initial;
+  -webkit-text-stroke: revert;
+  -webkit-text-stroke: revert-layer;
+  -webkit-text-stroke: unset;
 }
 @font-face {
   font-family: haverbooke;

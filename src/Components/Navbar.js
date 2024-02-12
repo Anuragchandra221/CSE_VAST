@@ -21,21 +21,21 @@ function Navbar() {
         </div>
   <div class="collapse navbar-collapse pl-0" id="navbarTogglerDemo01">
     
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <ul class="navbar-nav d-flex align-items-center mr-auto mt-2 mt-lg-0">
       <li className='nav-item mx-4' onClick={()=>setActive('home')}>
-        <a class={active=="home"?`active nav-link`: `mx-4`} href="#" id="navlink">HOME <span class="sr-only">(current)</span></a>
+        <a id={active=='home'?'active':'navlink'} class={`active nav-link mx-4 nav-link mx-4`} href="#">HOME <span class="sr-only">(current)</span></a>
+      </li> 
+      <li className='nav-item mx-4' onClick={()=>setActive('events')}>
+        <a id={active=='events'?'active':'navlink'} class={`active nav-link mx-4 nav-link mx-4`} href="#" >EVENTS</a>
       </li>
-      <li class={active=="events"?`active nav-item mx-4`: `nav-item mx-4`} onClick={()=>setActive('eveents')}>
-        <a class="nav-link" href="#" id="navlink" >EVENTS</a>
+      <li className='nav-item mx-4' onClick={()=>setActive('sponsors')}>
+        <a id={active=='sponsors'?'active':'navlink'} class={`active nav-link mx-4 nav-link mx-4`} href="#">SPONSORS</a>
       </li>
-      <li class={active=="sponsors"?`active nav-item mx-4`: `nav-item mx-4`} onClick={()=>setActive('sponsors')}>
-        <a class="nav-link" id="navlink" href="#">SPONSORS</a>
+      <li className='nav-item mx-4' onClick={()=>setActive('team')}>
+        <a id={active=='team'?'active':'navlink'} class={`active nav-link mx-4 nav-link mx-4`} href="#">TEAM</a>
       </li>
-      <li class={active=="team"?`active nav-item mx-4`: `nav-item mx-4`} onClick={()=>setActive('team')}>
-        <a class="nav-link" id="navlink" href="#">TEAM</a>
-      </li>
-      <li class={active=="about"?`active nav-item mx-4`: `nav-item mx-4`} onClick={()=>setActive('about')}>
-        <a class="nav-link" id="navlink" href="#">ABOUT</a>
+      <li className='nav-item mx-4' onClick={()=>setActive('about')}>
+        <a id={active=='about'?'active':'navlink'} class={`active nav-link mx-4 nav-link mx-4`} href="#">ABOUT</a>
       </li>
     </ul>
   </div>
