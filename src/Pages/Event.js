@@ -8,6 +8,8 @@ function Event(props) {
         window.location.replace("https://forms.gle/iVxZKPkVVjgF3jRJ9")
     }else if(props.event=="respawn"){
       window.location.replace("https://forms.gle/64kao6SABBPUwHmP9")
+    }else if(props.event=="dev"){
+      window.location.replace("https://forms.gle/YCJWpmuouSiWew9s9")
     }
   return (
     <div>

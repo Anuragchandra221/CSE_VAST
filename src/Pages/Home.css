@@ -1,7 +1,12 @@
 .home{
-    height: 100%;
     width: 100%;
     position: relative;
+}
+.date-text{
+    font-size: small;
+}
+.homeMain{
+    height: 100vh;
 }
 .home>p{
     font-size: 45px;

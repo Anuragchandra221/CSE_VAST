@@ -22,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/respawnesports",
     element: <Event event="respawn"/>  
+  },
+  {
+    path: "/dsd",
+    element: <Event event="dev"/>  
   }
 ])
 
