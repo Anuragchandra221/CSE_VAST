@@ -20,13 +20,15 @@
 }
 .balloon{
     /* Group */
-
+        display: none;
         position: absolute;
         /* left: 93.33%; */
-        right: 0px;
+        /* left: 170px; */
+        right: -23%;
         top: 16.14%;
         bottom: 77.86%; 
         width: 60px;
+        
 
 }
 .home-div{
@@ -70,7 +72,7 @@
     }
     .balloon{
         /* Group */
-
+            display: block;
             position: absolute;
             top: -50px;
             right: -22%;
