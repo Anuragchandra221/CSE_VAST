@@ -12,8 +12,6 @@ function Event(props) {
       window.location.replace("https://forms.gle/YCJWpmuouSiWew9s9")
     }else if(props.event=="animaze"){
       window.location.replace("https://forms.gle/g29W5Vji1qP3MW4A8")
-    }else{
-      window.location.replace("https://csevast.in")
     }
   return (
     <div>
