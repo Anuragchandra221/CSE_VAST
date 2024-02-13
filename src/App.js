@@ -26,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/dsd",
     element: <Event event="dev"/>  
+  },
+  {
+    path: "/animaze",
+    element: <Event event="animaze"/>  
   }
 ])
 
