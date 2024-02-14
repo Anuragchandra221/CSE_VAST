@@ -45,7 +45,7 @@ function Members(props) {
         {props.data.main?
             props.data.main.map((main)=>{
                 return <div className='member-div main-div mx-4 hidden-left'>
-                            <img className='member-img' src={main.url}/>
+                            <img loading='lazy' className='member-img' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Main Coodinator</p>
                         </div>
