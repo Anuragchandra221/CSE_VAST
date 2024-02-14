@@ -5,12 +5,18 @@
 
 .tech-head{
     font-family: one-plus-black;
-    width: fit-content;
+    min-width: 200px;
     position: relative;
     background: linear-gradient(180.83deg, rgba(206, 206, 206, 0.8) 0.71%, rgba(19, 19, 19, 0) 170.39%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+.tech{ 
+    width: 350px;
+}
+.non-tech{
+    width: 445px;
 }
 .event-div-non{
     position: relative;
@@ -31,35 +37,48 @@
     border: 1px solid;
     width: 100%;
     opacity: 0.4;
+    display: none;
 }
-
+@media screen and (min-width: 576px) {
+    .head-line, .head-line-main, .head-line-non{
+        display: block;
+    }
+    .head-line{
+        /* position: absolute; */
+        border: 1px solid var(--font);
+        top: 0%;
+        left: 23%;
+        opacity: 0.4;
+        width: 100%;
+    }
+}
 @media screen and (min-width: 768px) {
     .head-line{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 0%;
         left: 21%;
         opacity: 0.4;
-        width: 100%;
+        /* width: 100%; */
     }
     .object2{
         width: 150px;
     }
     .head-line-main{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 0%;
         left: 15%;
         opacity: 0.4;
-        width: 100%;
+        /* width: 100%; */
     }
     .head-line-non{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 0%;
         left: 26%;
         opacity: 0.4;
-        width: 100%;
+        /* width: 100%; */
     }
     .event-div{
         width: 80%;

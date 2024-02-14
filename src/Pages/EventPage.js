@@ -43,8 +43,8 @@ function EventPage() {
         <div className='py-5'></div>
         <h2 className='event-head my-5 '>FEATURED EVENTS</h2>
 
-        <div className='event-div-main hidden-left'>
-            <h3 className='mb-lg-5 tech-head '>Main Event
+        <div className='mb-lg-5 event-div-main hidden-left d-flex  align-items-center'>
+            <h3 className=' tech-head '>Main Event
             </h3>
             <hr className='head-line-main' />
         </div>
@@ -54,8 +54,8 @@ function EventPage() {
             )
         })}
 
-        <div className='event-div mt-5 hidden-left'>
-            <h3 className='mb-lg-5 tech-head '>Technical Events
+        <div className='event-div mb-lg-5 mt-5 d-flex align-items-center  hidden-left'>
+            <h3 className='tech-head tech text-left'>Technical Events
             </h3>
             <hr className='head-line' />
         </div>
@@ -65,8 +65,8 @@ function EventPage() {
             )
         })}
 
-    <div className='event-div-non mt-5 hidden-left'>
-            <h3 className='mb-lg-5 tech-head '>Non Technical Events
+    <div className='event-div-non mb-lg-5 mt-5 hidden-left d-flex align-items-center'>
+            <h3 className='tech-head non-tech text-left'>Non Technical Events
             </h3>
             <hr className='head-line-non' />
         </div>

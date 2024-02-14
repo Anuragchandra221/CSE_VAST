@@ -50,6 +50,9 @@
 .register-img{
     width: 150px;
 }
+.chead-line, .phead-line, .ghead-line, .shead-line{
+    display: none;
+}
 
 .guideline{
     font-family: source-code;
@@ -68,7 +71,7 @@
         width: 60%;
     }
     .shead-line{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 0%;
         left: 25%;
@@ -76,7 +79,7 @@
         width: 100vw;
     }
     .phead-line{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 22%;
         right: 14%;
@@ -84,7 +87,7 @@
         width: 100vw;
     }
     .ghead-line{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 0%;
         left: 26%;
@@ -92,7 +95,7 @@
         width: 100vw;
     }
     .chead-line{
-        position: absolute;
+        /* position: absolute; */
         border: 1px solid var(--font);
         top: 22%;
         right: 23%;

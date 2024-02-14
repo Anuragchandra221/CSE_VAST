@@ -75,8 +75,8 @@ function Event(props) {
         <Link to={props.data.registration} target='_blank' ><button className="single-btn py-2">Register</button></Link>
         
         :''}
-        <div className='sevent-div mt-5 hidden-left'> 
-            <h3 className='mb-lg-3 event-head text-left '>OVERVIEW
+        <div className='mb-lg-3 sevent-div mt-5 d-flex align-items-center hidden-left'> 
+            <h3 className='m-0 pr-2 mb-3  event-head text-left '>OVERVIEW
             </h3>
             <hr className='shead-line ' />
         </div>
@@ -84,9 +84,9 @@ function Event(props) {
 
         {props.data.prize?
           <>
-            <div className='sevent-div mt-5 hidden-right '> 
+            <div className='sevent-div d-flex align-items-center mt-5 hidden-right '> 
                 <hr className='phead-line' />
-                <h3 className='my-lg-3 event-head text-left text-lg-right '>PRIZE
+                <h3 className=' event-head m-0 text-left text-lg-right pl-2'>PRIZE
                 </h3>
             </div>
             <div className='d-flex justify-content-start hidden justify-content-lg-center mt-3 mt-lg-0 align-items-center'>
@@ -97,8 +97,8 @@ function Event(props) {
         :''}
         {guidelines?
         
-        <div className='sevent-div mt-5 hidden-left'> 
-              <h3 className='mb-lg-3 event-head text-left '>GUIDELINES
+        <div className='sevent-div mt-5 mb-3 mb-lg-3 d-flex align-items-center hidden-left'> 
+              <h3 className='m-0 event-head text-left pr-2'>GUIDELINES
               </h3>
               <hr className='ghead-line' />
           </div>
@@ -117,9 +117,9 @@ function Event(props) {
               }
             </div>
             {props.data.contact?    
-            <div className='sevent-div mt-5 hidden hidden-right '> 
+            <div className='sevent-div mt-5 d-flex align-items-center  hidden hidden-right '> 
                 <hr className='chead-line' />
-                <h3 className='my-lg-3 event-head text-left text-lg-right '>CONTACT
+                <h3 className='m-0 pl-2 event-head text-left text-lg-right mr-auto  '>CONTACT
                 </h3>
             </div>
           :''}
