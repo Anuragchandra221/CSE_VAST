@@ -4,7 +4,7 @@ body{
   background-color: var(--background);
   /* scroll-behavior: smooth; */
   position: absolute;
-    background-image: url("./Assets/Images/pattern.png");
+    /* background-image: url("./Assets/Images/pattern.png"); */
     background-color: var(--background);
     background-position: center;
     background-repeat: no-repeat;
