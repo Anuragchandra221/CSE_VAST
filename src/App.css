@@ -10,11 +10,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
-/* html{
+html{
   scroll-behavior: smooth !important;
-} */
+}
 .App {
   text-align: center;
   height: 100%;
@@ -88,6 +89,10 @@ body{
 @font-face {
   font-family: clash-display;
   src: url(./Assets/Fonts/ClashDisplay-Bold.otf);
+}
+@font-face {
+  font-family: clash-display-regular;
+  src: url(./Assets/Fonts/ClashDisplay-Regular.otf);
 }
 @font-face {
   font-family: source-code;

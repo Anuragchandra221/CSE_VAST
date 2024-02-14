@@ -1,0 +1,24 @@
+.coord{
+    opacity: 0.6;
+}
+
+.member-img{
+    width: 100%;
+    border-radius: 10px;
+    max-height: 100%;
+    height: 22vh;
+    width: auto;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.main-div{
+    transition-delay: 200ms;
+}
+.sub-div{
+    transition-delay: 400ms;
+}
+@media screen and (min-width: 768px) {
+    .member-img{
+        height: 40vh;
+    }
+}

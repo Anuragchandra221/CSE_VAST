@@ -76,6 +76,7 @@ function EventPage() {
             )
         })}
         <div className='pb-5'></div>
+        
         <Footer/>
     </div>
   )

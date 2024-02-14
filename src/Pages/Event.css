@@ -10,30 +10,92 @@
     color: #FF342B;
     border-radius: 15px;
     border: none;
+    font-size: large;
     cursor: pointer;
 }
 .sevent-div{
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
+}
+.token-para{
+    color: #000;
+    max-width: 70%;
+}
+.event-para{
+    line-height: 1.8em;
+}
+.token{
+    background-image: url('../Assets/Images/token.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+}
+.token-div{
+    flex-direction: column;
+}
+.slash{
+    color: #FF342B;
+    font-weight: 600;
+}
+.register{
+    font-size: 2.2em ;
+    color: #FF342B;
+    font-family: clash-display-regular;
+}
+.prize-img{
+    width: 40px;
+}
+.register-img{
+    width: 150px;
+}
+
+.guideline{
+    font-family: source-code;
 }
 @media screen and (min-width: 768px) {
     .single-img{
         width: 700px;
     }
+    .register{
+        font-size: 2.5em;
+    }
+    .token-div{
+        flex-direction: row;
+    }
+    .token{
+        width: 60%;
+    }
     .shead-line{
         position: absolute;
         border: 1px solid var(--font);
         top: 0%;
-        left: 22%;
+        left: 25%;
         opacity: 0.4;
         width: 100vw;
     }
     .phead-line{
         position: absolute;
         border: 1px solid var(--font);
+        top: 22%;
+        right: 14%;
+        opacity: 0.4;
+        width: 100vw;
+    }
+    .ghead-line{
+        position: absolute;
+        border: 1px solid var(--font);
         top: 0%;
-        right: 22%;
+        left: 26%;
+        opacity: 0.4;
+        width: 100vw;
+    }
+    .chead-line{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 22%;
+        right: 23%;
         opacity: 0.4;
         width: 100vw;
     }

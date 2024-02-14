@@ -4,14 +4,25 @@ import rectangle from "../Assets/Images/rectangle.png"
 import "./About.css"
 import Footer from '../Components/Footer';
 
-function importAll(r) {
-  return r.keys().map(r);
-}
-const files = importAll(require.context('../Assets/Images/gallery', false, /\.(jpg|jpeg)$/));
-console.log(files)
+
+const images = [
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940198/cse%20gallery/IMG_8454_ufpxeu.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08653_1_tfcsnw.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940198/cse%20gallery/IMG_8410_s41ibv.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08713_flneus.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08824_j78ioq.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940198/cse%20gallery/IMG_8411_fbwu97.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08677_1_zq1mny.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08723_gdmmfr.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08666_zhq20a.jpg",
+  "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707940197/cse%20gallery/DSC08661_mfpe5t.jpg",
+
+]
+
 function About() {
 
   useEffect(()=>{
+    window.scrollTo(0, 0)
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
         if(entry.isIntersecting){
@@ -59,7 +70,7 @@ function About() {
                 <h2 className='text-center about-head'>Gallery</h2>
             </div>
         <div className='image-gallery px-lg-5 mb-5 pb-4'>
-            {files?files.map((im)=>{
+            {images?images.map((im)=>{
                 return (
                     <li className='m-4 hidden'>
                         <img loading='lazy' src={im} />
