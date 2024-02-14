@@ -6,6 +6,7 @@ import {
 import Home from './Pages/Home';
 import Event from './Pages/Event';
 import About from './Pages/About';
+import { individual } from './Event_details';
 import EventPage from './Pages/EventPage';
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/animaze",
     element: <Event event="animaze"/>  
+  },
+  {
+    path: "/matrix",
+    element: <Event data={individual.matrix}/>
   }
 ])
 

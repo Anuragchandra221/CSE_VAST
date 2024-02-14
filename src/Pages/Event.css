@@ -1,0 +1,43 @@
+.event-img{
+    width: 100%;
+}
+.single-img{
+    width: 90%;
+}
+.single-btn{
+    width: 100%;
+    background-color: rgba(255, 52, 43, 0.2);
+    color: #FF342B;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.sevent-div{
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+@media screen and (min-width: 768px) {
+    .single-img{
+        width: 700px;
+    }
+    .shead-line{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 0%;
+        left: 22%;
+        opacity: 0.4;
+        width: 100vw;
+    }
+    .phead-line{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 0%;
+        right: 22%;
+        opacity: 0.4;
+        width: 100vw;
+    }
+    .sevent-div{
+        width: 100%;
+    }
+}

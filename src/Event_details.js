@@ -1,7 +1,7 @@
 import dsd from "./Assets/Images/dsd.png"
 import c2c from "./Assets/Images/c2c.png"
 import udzn from "./Assets/Images/udzn.png"
-
+import matrixL from "./Assets/Images/Events/matrix.png"
 const cse = {
     "main": [
         {
@@ -218,7 +218,7 @@ const individual = {
         "faculty": "Remya KR, Sivadasan E T, Neethu CS",
         "student": "Nikhil Mukundan (S6)",
         "link": "matrix",
-        "img": dsd
+        "img": matrixL
     },
     "dsd": {
         "title": "DEV-SHOWDOWN",
