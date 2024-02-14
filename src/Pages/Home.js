@@ -5,6 +5,7 @@ import balloon from "../Assets/Images/balloon.png"
 import Navbar from '../Components/Navbar'
 import Diagonal from '../Components/Diagonal'
 import Footer from '../Components/Footer'
+import Event_corousel from '../Components/Event_corousel'
 
 function Home() {
 
@@ -12,6 +13,31 @@ function Home() {
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   useEffect(() => {
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('show')
+        }else{
+          entry.target.classList.remove('show')
+        }
+      })
+    },[])
+    const observerLeft = new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('show-left')
+        }else{
+          entry.target.classList.remove('show-left')
+        }
+      })
+    },[])
+  
+    const hiddenElements = document.querySelectorAll('.hidden')
+    const hiddenElementsLeft = document.querySelectorAll('.hidden-left')
+    hiddenElements.forEach((el)=> observer.observe(el))
+    hiddenElementsLeft.forEach((el)=> observerLeft.observe(el))
+
     const intervalId = setInterval(() => {
       setTimeRemaining(calculateTimeRemaining());
       console.log(timeRemaining)
@@ -43,14 +69,14 @@ function Home() {
   return (
     <div className='home d-flex justify-content-center flex-column align-items-center text-white'>
       <img className='rectangle-top' src={rectangle}/>
-      <Navbar/>
+      <Navbar active="home"/>
       <div className='w-100 homeMain d-flex flex-column justify-content-center '> 
         <div className='home-div d-flex justify-content-between align-items-center mx-auto'>
-          <h2 className='text-center text-lg-left hero-text mb-4'>EXPLORE, CREATE, <br/> INSPIRE</h2>
+          <h2 className='text-center text-lg-left hero-text mb-4 hidden-left'>EXPLORE, CREATE, <br/> INSPIRE</h2>
           {timeRemaining?<h2 className=' hero-count mt-2 mt-lg-0 d-flex'><span className='d-flex flex-column justify-content-center align-items-center mx-3'>{timeRemaining.days} <p className='date-text '>DAYS</p></span> <span className='d-flex mx-3 flex-column'>{timeRemaining.hours} <p className='date-text'>HOURS</p></span> <span className='d-flex flex-column mx-3'>{timeRemaining.min} <p className='date-text'>MINUTES</p></span></h2>:''}
         </div>
         <div className='home-div mx-auto my-2 text-left'>
-          <p className='dates px-3 my-auto py-2 mb-3 mx-auto mx-lg-0'>
+          <p className='dates px-3 my-auto py-2 mb-3 mx-auto mx-lg-0 hidden-left'>
             
             FEB 29 & MAR 1
           </p>
@@ -62,9 +88,13 @@ function Home() {
           <img className='balloon' src={balloon}/>
         </div>
       </div>
-{/* 
+
       <Diagonal/>
-      <Footer/> */}
+      <div className='d-flex justify-content-center' style={{backgroundColor: "#000", width: '100%'}}>
+        <Event_corousel/>
+      </div>
+
+      <Footer/>
     </div>
   )
 }

@@ -5,6 +5,7 @@
 }
 #navbarTogglerDemo01{
     background-color: var(--background);
+    z-index: 2;
 }
 #navlink{
     text-decoration: none;

@@ -5,11 +5,21 @@ import {
 } from "react-router-dom"
 import Home from './Pages/Home';
 import Event from './Pages/Event';
+import About from './Pages/About';
+import EventPage from './Pages/EventPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
+  },
+  {
+    path: "/about",
+    element: <About/>
+  },
+  {
+    path: '/events',
+    element: <EventPage/>
   },
   {
     path: "/udzn",

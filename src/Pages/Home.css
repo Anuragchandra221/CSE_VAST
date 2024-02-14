@@ -8,7 +8,18 @@
 .homeMain{
     height: 100vh;
 }
-.home>p{
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(+300px);
+    /* filter: blur(5px); */
+}
+.show{
+    opacity: 1;
+    /* filter: blur(0); */
+    transform: translateY(0);
+}
+.home>.dates{
     font-size: 45px;
     font-weight: 800;
 }
@@ -46,6 +57,7 @@
     width: fit-content;
     color: var(--background);
     font-weight: 800;
+    transition-delay: 400ms;
 }
 .hero-count{
     font-family: 'Roboto', sans-serif;
@@ -73,6 +85,7 @@
     line-height: 1.5em;
     word-spacing: 1.1;
     font-family: one-plus-black;
+    transition-delay: 200ms;
 }
 
 @media screen and (min-width: 768px) {

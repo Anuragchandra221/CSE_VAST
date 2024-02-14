@@ -19,6 +19,7 @@ body{
   text-align: center;
   height: 100%;
 }
+
 #root{
   height: 100%;
   width: 100%;
@@ -83,4 +84,12 @@ body{
 @font-face {
   font-family: one-plus-black;
   src: url(./Assets/Fonts/SlateForOnePlus-Black.ttf);
+}
+@font-face {
+  font-family: clash-display;
+  src: url(./Assets/Fonts/ClashDisplay-Bold.otf);
+}
+@font-face {
+  font-family: source-code;
+  src: url(./Assets/Fonts/SourceCodePro-Light.ttf);
 }

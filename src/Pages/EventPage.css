@@ -1,0 +1,72 @@
+.event-head{
+    color: var(--font);
+    font-family: clash-display;
+}
+
+.tech-head{
+    font-family: one-plus-black;
+    width: fit-content;
+    position: relative;
+    background: linear-gradient(180.83deg, rgba(206, 206, 206, 0.8) 0.71%, rgba(19, 19, 19, 0) 170.39%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.event-div-non{
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+}
+.event-div{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+.event-div-main{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+.head-line, .head-line-main, .head-line-non{
+    border: 1px solid;
+    width: 100%;
+    opacity: 0.4;
+}
+@media screen and (min-width: 768px) {
+    .head-line{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 0%;
+        left: 21%;
+        opacity: 0.4;
+        width: 100%;
+    }
+    .object2{
+        width: 150px;
+    }
+    .head-line-main{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 0%;
+        left: 15%;
+        opacity: 0.4;
+        width: 100%;
+    }
+    .head-line-non{
+        position: absolute;
+        border: 1px solid var(--font);
+        top: 0%;
+        left: 26%;
+        opacity: 0.4;
+        width: 100%;
+    }
+    .event-div{
+        width: 80%;
+    }
+    .event-div-non{
+        width: 80%;
+    }
+    .event-div-main{
+        width: 80%;
+    }
+}
