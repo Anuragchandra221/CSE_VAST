@@ -73,7 +73,7 @@ function About() {
             {images?images.map((im)=>{
                 return (
                     <li className='m-4 hidden'>
-                        <img loading='lazy' src={im} />
+                        <img loading='lazy' className='skeleton' src={im} />
                     </li>
                 ) 
             }):''}

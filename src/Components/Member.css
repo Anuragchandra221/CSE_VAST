@@ -12,6 +12,18 @@
     object-fit: cover;
     vertical-align: bottom;
 }
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(0, 0%, 22%);
+    }
+    100% {
+      background-color: hsl(0, 0%, 95%);
+    }
+  }
 .main-div{
     transition-delay: 200ms;
 }

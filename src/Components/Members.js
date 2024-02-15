@@ -45,7 +45,7 @@ function Members(props) {
         {props.data.main?
             props.data.main.map((main)=>{
                 return <div className='member-div main-div mx-4 hidden-left'>
-                            <img loading='lazy' className='member-img' src={main.url}/>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Main Coodinator</p>
                         </div>
@@ -54,7 +54,7 @@ function Members(props) {
         {props.data.sub?
             props.data.sub.map((main)=>{
                 return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
-                            <img className='member-img' src={main.url}/>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Sub Coordinator</p>
                         </div>
@@ -63,7 +63,7 @@ function Members(props) {
         {props.data.design?
             props.data.design.map((main)=>{
                 return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
-                            <img className='member-img' src={main.url}/>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Design head</p>
                         </div>
