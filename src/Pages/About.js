@@ -22,7 +22,6 @@ const images = [
 function About() {
 
   useEffect(()=>{
-    window.scrollTo(0, 0)
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
         if(entry.isIntersecting){
@@ -41,12 +40,23 @@ function About() {
         }
       })
     },[])
+    const observerRight = new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('show-right')
+        }else{
+          entry.target.classList.remove('show-right')
+        }
+      })
+    },[])
   
     const hiddenElements = document.querySelectorAll('.hidden')
     const hiddenElementsLeft = document.querySelectorAll('.hidden-left')
+    const hiddenElementsRight = document.querySelectorAll('.hidden-right')
     hiddenElements.forEach((el)=> observer.observe(el))
     hiddenElementsLeft.forEach((el)=> observerLeft.observe(el))
-  },[])
+    hiddenElementsRight.forEach((el)=> observerRight.observe(el))
+  },[]) 
    
 
   return (
@@ -54,7 +64,7 @@ function About() {
       <img className='rectangle-top' src={rectangle}/>
         <Navbar active="about"/>
         <div className='py-5'></div>
-        <h2 className='about-head my-5 hidden'>ABOUT</h2>
+        <h2 className='about-head my-5 hidden-right'>ABOUT</h2>
         <p className='about-para hidden-left'>
             Through all these years, the Computer Science and Engineering
             Department is one of the growing powerhouse of talent, creativity
@@ -70,9 +80,10 @@ function About() {
                 <h2 className='text-center about-head'>Gallery</h2>
             </div>
         <div className='image-gallery px-lg-5 mb-5 pb-4'>
-            {images?images.map((im)=>{
+            {images?images.map((im,i)=>{
+              // let i = (Math.random()*10)
                 return (
-                    <li className='m-4 hidden'>
+                    <li className={i%2==0?'m-4 hidden-right':'m-4 hidden-left'} >
                         <img loading='lazy' className='skeleton' src={im} />
                     </li>
                 ) 

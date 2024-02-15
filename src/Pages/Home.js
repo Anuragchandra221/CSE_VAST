@@ -76,7 +76,7 @@ function Home() {
       <Navbar active="home"/>
       <div className='w-100 homeMain d-flex flex-column justify-content-center '> 
         <div className='home-div d-flex justify-content-between align-items-center mx-auto'>
-          <h2 className='text-center text-lg-left hero-text mb-4 hidden-left'>EXPLORE, CREATE, <br/> INSPIRE</h2>
+          <h2 className='text-center text-lg-left hero-text mb-4 hidden-left' style={{opacity: '0.85'}}>EXPLORE, CREATE, <br/> INSPIRE</h2>
           {timeRemaining?<h2 className=' hero-count mt-2 mt-lg-0 d-flex'><span className='d-flex flex-column justify-content-center align-items-center mx-3'>{timeRemaining.days} <p className='date-text '>DAYS</p></span> <span className='d-flex mx-3 flex-column'>{timeRemaining.hours} <p className='date-text'>HOURS</p></span> <span className='d-flex flex-column mx-3'>{timeRemaining.min} <p className='date-text'>MINUTES</p></span></h2>:''}
         </div>
         <div className='home-div mx-auto my-2 text-left'>
@@ -94,9 +94,10 @@ function Home() {
       </div>
 
       <Diagonal/>
-      <div className='d-flex justify-content-center' style={{backgroundColor: "#000", width: '100%'}}>
+      <div className='d-flex justify-content-center mt-5' style={{backgroundColor: "#000", width: '100%'}}>
         <Event_corousel/>
       </div>
+      
       <Sponsors/>
       <Footer/>
     </div>

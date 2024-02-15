@@ -6,6 +6,17 @@
 #navbarTogglerDemo01{
     background-color: var(--background);
     z-index: 2;
+    height: 100vh;
+    /* position: fixed; */
+
+    display: flex;
+
+}
+.navbar-nav{
+    position: absolute;
+    top: 25%;
+    right: 32%;
+
 }
 #navlink{
     text-decoration: none;
@@ -22,11 +33,39 @@
     font-weight: 800;
     font-family: one-plus-black;
 }
+@media screen and (min-width: 576px) {
+    #navbarTogglerDemo01{
+        background-color: var(--background);
+        z-index: 2;
+        height: 100vh;
+        width: 100vw;
+    }
+    .navbar-nav{
+        right: 37%;
+    }
+}
 @media screen and (min-width: 768px) {
     #navbarTogglerDemo01{
-        background-color: rgba(0,0,0,0);
+        background-color: var(--background);
+        height: auto;
+        /* width: 100vw; */
+        z-index: 2;
     }
     #navbar{
         width: 70%;
     }
+    .navbar-nav{
+        background-color: #000;
+        position: unset;
+    }
+}
+@media screen and (min-width: 992px) {
+    #navbarTogglerDemo01{
+        height: auto;
+    }
+    .navbar-nav{
+        position: unset;
+        
+    }
+
 }
