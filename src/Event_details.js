@@ -457,6 +457,16 @@ const individual = {
 }
 
 const team = {
+    "tech": {
+        "captain": [{
+            "name": "Shanavas R S",
+            "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707979928/cse%20team/91_75929_94362_20200617_214229_eeol5f.jpg"
+        }],
+        "vice": [{
+            "name": "Joel Joseph",
+            "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707979711/cse%20team/WhatsApp_Image_2024-02-15_at_12.17.01_PM_udkr1i.jpg"
+        }]
+    },
     "media": {
         "title": "Media",
         "main": [

@@ -49,6 +49,8 @@ function Team() {
         <Navbar active="team"/>
         <img className='rectangle-top object2' src={object2}/>
         <div className='py-5'></div>
+        <h2 className='event-head my-5 hidden-right'>TECH COORDINATORS</h2>
+        <Members data={team.tech} />
         <h2 className='event-head my-5 hidden-right'>RESPAWN</h2>
         <Members data={team.respawn} />
         <h2 className='event-head my-5 hidden-left'>DEVSHOWDOWN</h2>

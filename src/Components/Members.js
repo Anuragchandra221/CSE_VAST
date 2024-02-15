@@ -42,6 +42,24 @@ function Members(props) {
 
   return (
     <div className='d-flex w-100 justify-content-center hidden flex-wrap'>
+        {props.data.captain?
+            props.data.captain.map((main)=>{
+                return <div className='member-div main-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Captain</p>
+                        </div>
+            })
+        :''}
+        {props.data.vice?
+            props.data.vice.map((main)=>{
+                return <div className='member-div main-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Vice Captain</p>
+                        </div>
+            })
+        :''}
         {props.data.main?
             props.data.main.map((main)=>{
                 return <div className='member-div main-div mx-4 hidden-left'>

@@ -18,10 +18,10 @@
   
   @keyframes skeleton-loading {
     0% {
-      background-color: hsl(0, 0%, 22%);
+      background-color: rgba(56, 56, 56,.6);
     }
     100% {
-      background-color: hsl(0, 0%, 95%);
+      background-color: rgba(56, 56, 56,.8);
     }
   }
 .main-div{
