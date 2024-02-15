@@ -49,8 +49,6 @@ function Team() {
         <Navbar active="team"/>
         <img className='rectangle-top object2' src={object2}/>
         <div className='py-5'></div>
-        <h2 className='event-head my-5 hidden-left'>MEDIA TEAM</h2>
-        <Members data={team.media} />
         <h2 className='event-head my-5 hidden-right'>RESPAWN</h2>
         <Members data={team.respawn} />
         <h2 className='event-head my-5 hidden-left'>DEVSHOWDOWN</h2>
@@ -81,6 +79,8 @@ function Team() {
         <Members data={team.udzn} />
         <h2 className='event-head my-5 hidden-right'>WORKSHOP</h2>
         <Members data={team.workshop} />
+        <h2 className='event-head my-5 hidden-left'>MEDIA TEAM</h2>
+        <Members data={team.media} />
         <div className='py-3'></div>
         <Footer/>
     </div>
