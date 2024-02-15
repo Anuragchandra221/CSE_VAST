@@ -6,14 +6,15 @@ import Navbar from '../Components/Navbar'
 import Diagonal from '../Components/Diagonal'
 import Footer from '../Components/Footer'
 import Event_corousel from '../Components/Event_corousel'
+import Sponsors from '../Components/Sponsors'
+
 
 function Home() {
 
   const targetDate = new Date("2024-2-29");
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
-  useEffect(() => {
-
+  useEffect(()=>{
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
         if(entry.isIntersecting){
@@ -32,20 +33,23 @@ function Home() {
         }
       })
     },[])
+    const observerRight = new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('show-right')
+        }else{
+          entry.target.classList.remove('show-right')
+        }
+      })
+    },[])
   
     const hiddenElements = document.querySelectorAll('.hidden')
     const hiddenElementsLeft = document.querySelectorAll('.hidden-left')
+    const hiddenElementsRight = document.querySelectorAll('.hidden-right')
     hiddenElements.forEach((el)=> observer.observe(el))
     hiddenElementsLeft.forEach((el)=> observerLeft.observe(el))
-
-    const intervalId = setInterval(() => {
-      setTimeRemaining(calculateTimeRemaining());
-      console.log(timeRemaining)
-    }, 60000); 
-
-    // Clear the interval when the component is unmounted
-    return () => clearInterval(intervalId);
-  }, []);
+    hiddenElementsRight.forEach((el)=> observerRight.observe(el))
+  },[])
 
   function calculateTimeRemaining() {
     const currentDate = new Date();
@@ -93,7 +97,7 @@ function Home() {
       <div className='d-flex justify-content-center' style={{backgroundColor: "#000", width: '100%'}}>
         <Event_corousel/>
       </div>
-
+      <Sponsors/>
       <Footer/>
     </div>
   )

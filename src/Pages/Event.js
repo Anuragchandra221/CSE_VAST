@@ -76,7 +76,7 @@ function Event(props) {
         
         :''}
         <div className='mb-lg-3 sevent-div mt-5 d-flex align-items-center hidden-left'> 
-            <h3 className='m-0 pr-2 mb-3  event-head text-left '>OVERVIEW
+            <h3 className='m-0 pr-2 event-head text-left '>OVERVIEW
             </h3>
             <hr className='shead-line ' />
         </div>

@@ -76,12 +76,14 @@
         top: 0%;
         left: 25%;
         opacity: 0.4;
+        display: block;
         width: 100vw;
     }
     .phead-line{
         /* position: absolute; */
         border: 1px solid var(--font);
         top: 22%;
+        display: block;
         right: 14%;
         opacity: 0.4;
         width: 100vw;
@@ -92,12 +94,14 @@
         top: 0%;
         left: 26%;
         opacity: 0.4;
+        display: block;
         width: 100vw;
     }
     .chead-line{
         /* position: absolute; */
         border: 1px solid var(--font);
         top: 22%;
+        display: block;
         right: 23%;
         opacity: 0.4;
         width: 100vw;

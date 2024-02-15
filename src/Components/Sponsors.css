@@ -1,0 +1,33 @@
+.sponsorship{
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.slides{
+    width: 100%;
+    overflow: visible;
+    transition: transform 1.5s;
+}
+.sponsorship::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sponsorship {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.slides>img{
+    width: 150px;
+}
+.event-head{
+    display: block;
+}
+@media screen and (min-width: 768px) {
+    .sponsor-div{
+        width: 80%;
+    }   
+    .slides>img{
+        width: 200px;
+    }
+}

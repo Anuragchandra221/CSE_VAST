@@ -60,6 +60,15 @@ function Members(props) {
                         </div>
             })
         :''}
+        {props.data.design?
+            props.data.design.map((main)=>{
+                return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
+                            <img className='member-img' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Design head</p>
+                        </div>
+            })
+        :''}
     </div>
   )
 }

@@ -233,7 +233,10 @@ const individual = {
         "student": "Appu K (S8), Sanju C S (S6)",
         "link": "respawnesports",
         "img": respawnL,
-        "registration": "https://forms.gle/64kao6SABBPUwHmP9"
+        "registration": "https://forms.gle/64kao6SABBPUwHmP9",
+        "contact": [
+            "Appu K - +91 9495428169"
+        ],
     },
     "matrix": {
         "title": "Department Expo: Matrix",
@@ -242,7 +245,10 @@ const individual = {
         "faculty": "Remya KR, Sivadasan E T, Neethu CS",
         "student": "Nikhil Mukundan (S6)",
         "link": "matrix",
-        "img": matrixL
+        "img": matrixL,
+        "contact": [
+            "Nikhil Mukundan - +91 7012240531"
+        ],
     },
     "dsd": {
         "title": "DEV-SHOWDOWN",
@@ -257,7 +263,7 @@ const individual = {
         "link": "dsd",
         "img": dsdL,
         "contact": [
-            "Anurag Chandra - 7012597830"
+            "Anurag Chandra - +91 7012597830"
         ],
         "guidelines": "Each team should contain 3 members.Each member has to participate in two sub events.There is a registration fee of Rs 300.All participants are required to bring their college ID card.The winners will be awarded from a prize pool worth 35k.A total of 5 teams with the most cumulative individual points will advance to the next day.Top 3 will be awarded the prize money based on the completion of the treasure hunt.",
         "sub": [
@@ -329,7 +335,10 @@ const individual = {
         "student": "Issak (S8)",
         "link": "udzn",
         "img": udznL,
-        "registration": "https://forms.gle/iVxZKPkVVjgF3jRJ9"
+        "registration": "https://forms.gle/iVxZKPkVVjgF3jRJ9",
+        "contact": [
+            "Issak Thomas - +91 7907420280"
+        ],
     },
     "c2c": {
         "title": "CANVAS 2 CODE",
@@ -343,7 +352,10 @@ const individual = {
         "student": "Aswin M M (S8)",
         "link": "c2c",
         "img": c2cL,
-        "registration": "https://forms.gle/qoJSAjvEctc2jWz5A"
+        "registration": "https://forms.gle/qoJSAjvEctc2jWz5A",
+        "contact": [
+            "Aswin M M - +91 7907048559"
+        ],
     },
     "animaze": {
         "title": "ANIMAZE",
@@ -357,7 +369,10 @@ const individual = {
         "student": "Jibin C Baby (S8)",
         "link": "animaze",
         "img": animazeL,
-        "registration": "https://forms.gle/g29W5Vji1qP3MW4A8"
+        "registration": "https://forms.gle/g29W5Vji1qP3MW4A8",
+        "contact": [
+            "Jibin C Baby - +91 8921275707"
+        ],
     },
     "workshop": {
         "title": "Workshop",
@@ -369,7 +384,10 @@ const individual = {
         "faculty": "Neethu P R, Aishwarya",
         "student": "Ragitha G (S8)",
         "link": "workshop",
-        "img": workshopL
+        "img": workshopL,
+        "contact": [
+            "Ragitha G - +91 7736764328"
+        ],
     },
     "fifa": {
         "title": "WAKA WAKA: FIFA Tournament",
@@ -382,7 +400,11 @@ const individual = {
         "faculty": "Delmy",
         "student": "Abhinav M (S4), Jeevanand P S (S8)",
         "link": "fifa",
-        "img": fifaL
+        "img": fifaL,
+        "contact": [
+            "Abhinav M - +91 9645320295",
+            "Jeevanandh P S - +91 7592093835"
+        ],
     },
     "maze": {
         "title": "MAZE RUNNER",
@@ -396,7 +418,10 @@ const individual = {
         "faculty": "Shameem",
         "student": "Abhishek C (S6)",
         "link": "maze",
-        "img": mazeL
+        "img": mazeL,
+        "contact": [
+            "Abhishek C - +91 9562823015"
+        ],
     },
     "infinity": {
         "title": "INFINITY FUN",
@@ -408,7 +433,10 @@ const individual = {
         "faculty": "Neethu George",
         "student": "Aswathy C B (S6)",
         "link": "infinity",
-        "img": infinityL
+        "img": infinityL,
+        "contact": [
+            "Aswathy C B - +91 6282579676"
+        ],
     },
     "photo": {
         "title": "PHOTO BOOTH",
@@ -418,9 +446,12 @@ const individual = {
         "fee": "10",
         "venue": "NB 216",
         "faculty": "Anupama",
-        "student": "Anjali Krishna (S8)",
+        "student": "Athulia T Rajesh (S8)",
         "link": "photobooth",
-        "img": photoboothL 
+        "img": photoboothL,
+        "contact": [
+            "Athulia T Rajesh - +91 8921331500"
+        ], 
     }
 
 }
@@ -432,6 +463,12 @@ const team = {
             {
                 "name": "Abhinav A A",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707937130/Abhinav_A_A_-_maincoordinator_as7eee.jpg"
+            }
+        ],
+        "design":[
+            {
+                "name": "Suryajit Sudheeran",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707976965/cse%20team/Suryajit_m8kalw.jpg"
             }
         ]
     },
@@ -504,7 +541,7 @@ const team = {
         "sub": [
             {
                 "name": "A Ardra Nair",
-                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934737/cse%20team/A_Ardra_Nair_Sub-Coordinator_dwburs.jpg"
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707978012/cse%20team/A_Ardra_Nair_Sub-Coordinator_1_ruhbfh.jpg"
             }
         ]
     },
@@ -529,6 +566,10 @@ const team = {
             {
                 "name": "Ignatius Nobel",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934733/cse%20team/Ignatius_Nobel_Chittilappilly-_Main_Coordinator_oap7k1.jpg"
+            },
+            {
+                "name": "Abhiram A S",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707976491/cse%20team/Abhiram_A_S_-_Main_Coordinator_phpprh.jpg"
             }
         ],
         "sub": [
@@ -543,7 +584,7 @@ const team = {
         "main": [
             {
                 "name": "Gokul P",
-                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934731/cse%20team/Gokul_P_-_Main_Coordinator_olhcem.jpg"
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707977747/cse%20team/Gokul_P_-_Main_Coordinator_1_eow0p5.jpg"
             }
         ]
     },
@@ -563,6 +604,12 @@ const team = {
                 "name": "Aswin MM",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934741/cse%20team/Aswin_MM_-_Main_coordinator_tf0r1o.jpg"
             }
+        ],
+        "sub": [
+            {
+                "name": "Najil Arfak",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707976586/cse%20team/Najil_Arfak_NN_-_Sub_coordinator_goffq1.jpg"
+            }
         ]
     },
     "matrix": {
@@ -570,7 +617,7 @@ const team = {
         "main": [
             {
                 "name": "Nikhil Mukundan",
-                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934731/cse%20team/NIKHIL_MUKUNDAN_-_MAIN_COORDINATOR_m4lcwp.jpg"
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707978032/cse%20team/NIKHIL_MUKUNDAN_-_MAIN_COORDINATOR_1_bgz8sq.jpg"
             }
         ],
         "sub": [
@@ -586,6 +633,12 @@ const team = {
             {
                 "name": "Abhishek C",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934729/cse%20team/ABHISHEK_C_-_Main_Coordinator_vx4uhk.jpg"
+            }
+        ],
+        "sub": [
+            {
+                "name": "Mohamed Riyas",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707976259/cse%20team/MOHAMEDRIYAS_mukhfw.jpg"
             }
         ]
     },
