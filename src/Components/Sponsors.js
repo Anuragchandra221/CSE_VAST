@@ -53,7 +53,7 @@ function Sponsors() {
     }, [])
   return (
     <div className='sponsor-div mb-5 hidden'>
-        <h2 className='event-head text-center text-lg-left mb-3 pl-2 pl-lg-0'>WE ARE FUELED BY</h2>
+        <h2 className='event-head text-center text-lg-left mb-3 pl-2 pl-lg-0' style={{wordSpacing: "0.1em"}}>WE ARE FUELED BY</h2>
         <div className='sponsorship d-flex flex-column'>
             <div className='slides d-flex'>
                 <img className='mx-3 mx-lg-4 slide-img' src={asianet}/> 
