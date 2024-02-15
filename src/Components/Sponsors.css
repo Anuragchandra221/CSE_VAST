@@ -1,33 +1,52 @@
 .sponsorship{
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+    display: flex;
+    cursor: pointer;
+    white-space: nowrap;
 }
 .slides{
-    width: 100%;
-    overflow: visible;
-    transition: transform 1.5s;
+    /* width: 100%; */
+    /* overflow: visible;
+    transition: transform 1.5s; */
+    animation: sliding 25s infinite linear;
+    /* display: inline-block; */
 }
-.sponsorship::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .sponsorship {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+.sponsor-div{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.sponsorship:hover .slides{
+    animation-play-state: paused ;
+}
+
 .slides>img{
-    width: 150px;
+    height: 100px;
+    /* width: 150px; */
 }
 .event-head{
     display: block;
+}
+@keyframes sliding {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@media screen and (min-width: 57px) {
+    .slides>img{
+        height: 100px;
+    }
 }
 @media screen and (min-width: 768px) {
     .sponsor-div{
         width: 80%;
     }   
     .slides>img{
-        width: 200px;
+        height: 150px;
     }
 }

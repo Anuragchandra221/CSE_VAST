@@ -56,6 +56,7 @@ function About() {
     hiddenElements.forEach((el)=> observer.observe(el))
     hiddenElementsLeft.forEach((el)=> observerLeft.observe(el))
     hiddenElementsRight.forEach((el)=> observerRight.observe(el))
+
   },[]) 
    
 

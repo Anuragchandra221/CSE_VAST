@@ -19,6 +19,9 @@
     transition: all 800ms;
     transform: translateX(-100%);
 }
+li::marker{
+    content: '';
+}
 .show-left{
     opacity: 1;
     /* filter: blur(0); */

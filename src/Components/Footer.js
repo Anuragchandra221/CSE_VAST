@@ -20,10 +20,10 @@ function Footer() {
                 </h2>
             </div>
             <div className='d-flex footer-nav mt-4'>
-                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link'>HOME</Link>
-                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link'>EVENTS</Link>
-                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link'>TEAM</Link>
-                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link'>ABOUT</Link>
+                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link' to="/">HOME</Link>
+                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link' to="/events">EVENTS</Link>
+                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link' to="/team">TEAM</Link>
+                <Link onClick={()=>window.scrollTo(0, 0)}  className='footer-link' to="/about">ABOUT</Link>
             </div>
             <div className='text-center text-lg-right mt-4 mt-lg-0 mb-2 '>
                 <a href='https://www.instagram.com/csevast/'><img src={insta} className='logos mx-4' /></a>

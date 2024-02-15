@@ -10,7 +10,7 @@ function Event_corousel() {
     <div className='slider-div mb-4 hidden'>
       {/* <h2 className='text-center text-lg-left event-text mb-4'>EVENTS</h2>
       <hr className='event-line'/> */}
-      <h2 className='event-head text-center text-lg-left mb-3 hidden-right pl-2 pl-lg-0'>HIGHLIGHTS</h2>
+      <h2 className='event-head text-center text-lg-left mb-4 hidden-right pl-2 pl-lg-0'>HIGHLIGHTS</h2>
       <div className="slider d-flex flex-wrap mb-3 justify-content-center justify-content-lg-start">
 
           <div className="slider-img">
