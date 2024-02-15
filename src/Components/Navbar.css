@@ -14,8 +14,10 @@
 }
 .navbar-nav{
     position: absolute;
-    top: 25%;
-    right: 32%;
+    top: 23%;
+    /* right: 32%; */
+    /* margin-inline: auto; */
+    width: 100%;
 
 }
 #navlink{
@@ -40,9 +42,7 @@
         height: 100vh;
         width: 100vw;
     }
-    .navbar-nav{
-        right: 37%;
-    }
+    
 }
 @media screen and (min-width: 768px) {
     #navbarTogglerDemo01{
