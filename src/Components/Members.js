@@ -41,7 +41,7 @@ function Members(props) {
       },[])
 
   return (
-    <div className='d-flex w-100 justify-content-center hidden flex-wrap'>
+    <div className='d-flex w-100 justify-content-center  align-items-center hidden flex-wrap' style={{rowGap: '15px'}}>
         {props.data.captain?
             props.data.captain.map((main)=>{
                 return <div className='member-div main-div mx-4 hidden-left'>
@@ -71,7 +71,7 @@ function Members(props) {
         :''}
         {props.data.sub?
             props.data.sub.map((main)=>{
-                return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
+                return <div className='member-div mt-0 mt-md-0 sub-div mx-4 hidden-left'>
                             <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Sub Coordinator</p>
