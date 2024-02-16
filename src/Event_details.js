@@ -270,6 +270,7 @@ const individual = {
         "student": "Anurag Chandra (S8), Febin Rajan (S8)",
         "link": "dsd",
         "img": dsdL,
+        "registration": "https://forms.gle/Maq1Sdt4YUqqsE5i6",
         "contact": [
             "Anurag Chandra - +91 7012597830"
         ],
