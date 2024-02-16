@@ -665,6 +665,12 @@ const team = {
                 "name": "Gokul P",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707977747/cse%20team/Gokul_P_-_Main_Coordinator_1_eow0p5.jpg"
             }
+        ],
+        "sub": [
+            {
+                "name": "Rasiya Sidharthan",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708064657/cse%20team/Rasiya_Sidhartha_C_S_-_sub_coordinator_1_xvkpay.jpg"
+            }
         ]
     },
     "animaze": {

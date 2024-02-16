@@ -58,7 +58,7 @@
 }
 .register-img{
     width: 150px;
-    animation: pulse 1s infinite;
+    animation: pulse 2s infinite;
 }
 @keyframes pulse {
     0%{

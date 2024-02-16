@@ -23,6 +23,7 @@ function About() {
 
   useEffect(()=>{
     window.scrollTo(0, 0)
+    console.log('abotu')
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
         if(entry.isIntersecting){
@@ -85,7 +86,7 @@ function About() {
             {images?images.map((im,i)=>{
               // let i = (Math.random()*10)
                 return (
-                    <li className={i%2==0?'m-4 hidden-right':'m-4 hidden-left'} >
+                    <li key={i} className={i%2==0?'m-4 hidden-right':'m-4 hidden-left'} >
                         <img loading='lazy' className='skeleton' src={im} />
                     </li>
                 ) 

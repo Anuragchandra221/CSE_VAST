@@ -116,9 +116,9 @@ function Event(props) {
             <div className='hidden-right'>
               {
                 guidelines?
-                guidelines.map((guideline)=>{
+                guidelines.map((guideline, i)=>{
                   if(guideline!=""){
-                    return <div>
+                    return <div key={i}>
                       <p className='text-left guideline'><span className='slash'>\ </span>{guideline}</p>
                     </div>
                   }
@@ -136,8 +136,8 @@ function Event(props) {
             {props.data.contact?
             
               <div>
-                {props.data.contact.map((con)=>{
-                  return <p className='text-left event-para hidden' style={{opacity: '.8'}}>{con}</p>
+                {props.data.contact.map((con, i)=>{
+                  return <p key={i} className='text-left event-para hidden' style={{opacity: '.8'}}>{con}</p>
                 })}
               </div>
             :''}
