@@ -87,6 +87,16 @@ function Event(props) {
             <hr className='shead-line ' />
         </div>
         <p className='event-para mb-3 hidden-right' style={{opacity: '.8'}}>{props.data.desc}</p>
+          
+        {
+          props.data.sub?
+          <div className='d-flex flex-wrap justify-content-center align-items-center'>
+            {props.data.sub.map((sub, i)=>{
+              return <div  className='sub-img m-4'><img src={sub.img} /></div>
+            })}
+          </div>
+          :''
+        }
 
         {props.data.prize?
           <>

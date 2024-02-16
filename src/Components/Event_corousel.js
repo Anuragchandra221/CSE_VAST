@@ -11,9 +11,9 @@ function Event_corousel() {
       {/* <h2 className='text-center text-lg-left event-text mb-4'>EVENTS</h2>
       <hr className='event-line'/> */}
       <h2 className='event-head text-center text-lg-left mb-4 hidden-right pl-2 pl-lg-0'>HIGHLIGHTS</h2>
-      <div className="slider d-flex flex-wrap mb-3 justify-content-center justify-content-lg-start">
+      <div className="slider d-flex flex-wrap mb-3 justify-content-center justify-content-lg-center">
 
-          <div className="slider-img">
+          <div className="slider-img ">
               <Link onClick={()=>window.scrollTo(0,0)} to="/respawnesports"><img src={respawn} /></Link>
           </div>
           <div className="slider-img">

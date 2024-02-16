@@ -60,6 +60,13 @@
     width: 150px;
     animation: pulse 2s infinite;
 }
+.sub-img{
+    width: 100px;
+    height: auto; 
+}
+.sub-img>img{
+    width: 100%;
+}
 @keyframes pulse {
     0%{
         opacity: 0.7;
@@ -81,9 +88,17 @@
 .guideline{
     font-family: source-code;
 }
+@media screen and (min-width: 576px){
+    .sub-img{
+        width: 150px;
+    }
+}
 @media screen and (min-width: 768px) {
     .single-img{
         width: 700px;
+    }
+    .sub-img{
+        width: 150px;
     }
     .register{
         font-size: 2.5em;

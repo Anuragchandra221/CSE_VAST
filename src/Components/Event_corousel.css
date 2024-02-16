@@ -18,9 +18,12 @@
   border: 2px solid var(--font);
 }
 .slider-img{
-  width: 250px;
+  width: 350px;
   cursor: pointer;
 
+}
+.slider-img>a>img{
+  width: 100%;
 }
 .slider-img:hover{
   transform: scale(1.03);

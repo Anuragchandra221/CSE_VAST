@@ -10,6 +10,13 @@ import respawn from "./Assets/Images/respawn.png"
 import fifa from "./Assets/Images/fifa.png" 
 import workshop from "./Assets/Images/workshop.png"
 
+import codex from "./Assets/Images/CodeX Logo.png"
+import dbug from "./Assets/Images/D_bug.png"
+import darkcode from "./Assets/Images/DarkCode.png"
+import refix from "./Assets/Images/ReFix.png"
+import typrace from "./Assets/Images/TypRace.png"
+import quizzy from "./Assets/Images/qwizzy.png"
+
 import matrixL from "./Assets/Images/Events/matrix.jpeg"
 import infinityL from "./Assets/Images/Events/infinity.jpeg"
 import animazeL from "./Assets/Images/Events/animaze.jpeg"
@@ -275,7 +282,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "Systems Lab",
                 "faculty": "Mithu Varghese",
-                "student": "Soloman Varghese (S8)"
+                "student": "Soloman Varghese (S8)",
+                "img": codex
             },
             {
                 "title": "DARKCODE",
@@ -284,7 +292,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "Project Lab",
                 "faculty": "Reshma V M",
-                "student": "Febin Rajan (S8)"
+                "student": "Febin Rajan (S8)",
+                "img": darkcode
             },
             {
                 "title": "REFIX",
@@ -293,7 +302,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "NB 213",
                 "faculty": "Lalini K S",
-                "student": "Ignatius Nobel (S8)"
+                "student": "Ignatius Nobel (S8)",
+                "img": refix
             },
             {
                 "title": "QWIZZY",
@@ -302,7 +312,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "NB 212",
                 "faculty": "Renjima, Mrithu",
-                "student": "Rohit C (S8)"
+                "student": "Rohit C (S8)",
+                "img": quizzy
             },
             {
                 "title": "TYPRACE",
@@ -311,7 +322,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "Systems Lab",
                 "faculty": "Soumya",
-                "student": "Gokul P (S8)"
+                "student": "Gokul P (S8)",
+                "img": typrace 
             },
             {
                 "title": "D_BUG",
@@ -320,7 +332,8 @@ const individual = {
                 "time": "9:15 Onwards",
                 "venue": "Project Lab",
                 "faculty": "Thulasi Rajan K",
-                "student": "Anurag Chandra (S8)"
+                "student": "Anurag Chandra (S8)",
+                "img": dbug 
             }
         ]
     },
