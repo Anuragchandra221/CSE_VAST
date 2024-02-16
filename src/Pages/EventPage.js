@@ -7,6 +7,7 @@ import dsd from "../Assets/Images/dsd.png"
 import { cse } from '../Event_details'
 import Footer from '../Components/Footer'
 import object2 from "../Assets/Images/object2.png"
+import ScrollButton from '../Components/ScrollButton'
 
 function EventPage() {
 
@@ -42,6 +43,7 @@ function EventPage() {
 
   return (
     <div className='about d-flex justify-content-start flex-column align-items-center text-white'>
+      <ScrollButton/>
         <Navbar active="events"/>
         <img className='rectangle-top object2' src={object2}/>
         <div className='py-5'></div>

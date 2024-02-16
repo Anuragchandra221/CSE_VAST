@@ -7,6 +7,7 @@ import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
+import ScrollButton from '../Components/ScrollButton'
 
 function Event(props) {
     // console.log(props)
@@ -72,6 +73,7 @@ function Event(props) {
     // }
   return (
     <div className='about d-flex justify-content-center flex-column align-items-center text-white'>
+      <ScrollButton/>
       <Navbar active="events" />
       <div className='py-5'></div>
       <div className="single-img mb-5">

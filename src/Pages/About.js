@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import rectangle from "../Assets/Images/rectangle.png"
 import "./About.css"
 import Footer from '../Components/Footer';
+import ScrollButton from '../Components/ScrollButton';
 
 
 const images = [
@@ -67,6 +68,7 @@ function About() {
 
   return (
     <div className='about d-flex justify-content-center flex-column align-items-center text-white'>
+      <ScrollButton/>
       <img className='rectangle-top' src={rectangle}/>
         <Navbar active="about"/>
         <div className='py-5'></div>

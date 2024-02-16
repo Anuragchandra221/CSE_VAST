@@ -7,6 +7,7 @@ import Diagonal from '../Components/Diagonal'
 import Footer from '../Components/Footer'
 import Event_corousel from '../Components/Event_corousel'
 import Sponsors from '../Components/Sponsors'
+import ScrollButton from '../Components/ScrollButton'
 
 
 function Home() {
@@ -76,6 +77,7 @@ function Home() {
 
   return (
     <div className='home d-flex justify-content-center flex-column align-items-center text-white'>
+      <ScrollButton/>
       <img className='rectangle-top' src={rectangle}/>
       <Navbar active="home"/>
       <div className='w-100 homeMain d-flex flex-column justify-content-center '> 

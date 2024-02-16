@@ -4,6 +4,7 @@ import { team } from '../Event_details'
 import Members from '../Components/Members'
 import object2 from "../Assets/Images/object2.png"
 import Footer from '../Components/Footer'
+import ScrollButton from '../Components/ScrollButton'
 
 function Team() {
 
@@ -51,6 +52,7 @@ function Team() {
 
   return (
     <div className='about d-flex justify-content-center flex-column align-items-center text-white'>
+      <ScrollButton/>
         <Navbar active="team"/>
         <img className='rectangle-top object2' src={object2}/>
         <div className='py-5'></div>
