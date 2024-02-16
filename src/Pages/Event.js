@@ -145,14 +145,14 @@ function Event(props) {
       
 
       <div className='d-flex w-100 token-div hidden my-5'> 
-        <div className='token mb-5 MR-AUTO d-flex flex-column justify-content-center pl-2 p-lg-3 py-2 py-lg-4 '>
+        <div className='token hidden-left mb-5 MR-AUTO d-flex flex-column justify-content-center pl-2 p-lg-3 py-2 py-lg-4 '>
             <p className='m-0 text-left mb-1 mb-lg-3 ' style={{color: "#FF342B", fontWeight: '700'}}>{props.data.title}</p>
             <p className='text-left token-para m-0 mb-1 mb-lg-3 '><span style={{fontWeight: '700'}}>Venue</span> - {props.data.venue}</p>
             <p className='text-left token-para m-0 mb-1 mb-lg-3 '><span style={{fontWeight: '700'}}>Faculty Coordinator</span> - {props.data.faculty}</p>
             <p className='text-left token-para m-0  '><span style={{fontWeight: '700'}}>Student Coordinator</span>- {props.data.student}</p>
             {/* <p>Venue-{cse.venue}</p> */}
           </div>
-          <div className='d-flex px-3 pl-0 pl-lg-4  justify-content-center align-items-start'>
+          <div className='d-flex px-3 pl-0 pl-lg-4 hidden-right  justify-content-center align-items-start'>
             <p className='register  pl-lg-5  text-center'>REGISTER <br/> NOW!!</p>
             <img className='register-img' src={vector2}/>
           </div>
