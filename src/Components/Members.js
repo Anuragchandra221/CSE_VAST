@@ -41,13 +41,40 @@ function Members(props) {
       },[])
 
   return (
-    <div className='d-flex w-100 justify-content-center  align-items-center hidden flex-wrap' style={{rowGap: '15px'}}>
+    <div className='d-flex member justify-content-center  align-items-center hidden flex-wrap' style={{rowGap: '20px'}}>
         {props.data.captain?
             props.data.captain.map((main)=>{
                 return <div className='member-div main-div mx-4 hidden-left'>
                             <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Captain</p>
+                        </div>
+            })
+        :''}
+        {props.data.head?
+            props.data.head.map((main)=>{
+                return <div className='member-div main-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Head</p>
+                        </div>
+            })
+        :''}
+        {props.data.heads?
+            props.data.heads.map((main)=>{
+                return <div className='member-div main-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Sub Head</p>
+                        </div>
+            })
+        :''}
+        {props.data.member?
+            props.data.member.map((main)=>{
+                return <div className='member-div main-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Member</p>
                         </div>
             })
         :''}
@@ -84,6 +111,24 @@ function Members(props) {
                             <img loading='lazy' className='member-img skeleton' src={main.url}/>
                             <p className='m-0 mt-3'>{main.name}</p>
                             <p className='m-0 mt-2 coord'>Design head</p>
+                        </div>
+            })
+        :''}
+        {props.data.designs?
+            props.data.designs.map((main)=>{
+                return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>Design Sub head</p>
+                        </div>
+            })
+        :''}
+        {props.data.vfx?
+            props.data.vfx.map((main)=>{
+                return <div className='member-div mt-3 mt-md-0 sub-div mx-4 hidden-left'>
+                            <img loading='lazy' className='member-img skeleton' src={main.url}/>
+                            <p className='m-0 mt-3'>{main.name}</p>
+                            <p className='m-0 mt-2 coord'>VFX Head</p>
                         </div>
             })
         :''}

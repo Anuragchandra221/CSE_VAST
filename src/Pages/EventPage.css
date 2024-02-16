@@ -26,6 +26,7 @@
 .event-div{
     width: 90%;
     overflow: hidden;
+    /* word-spacing: 0.1em; */
     position: relative;
 }
 .event-div-main{

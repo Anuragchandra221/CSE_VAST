@@ -234,6 +234,7 @@ const individual = {
         "link": "respawnesports",
         "img": respawnL,
         "registration": "https://forms.gle/64kao6SABBPUwHmP9",
+        "rule": "https://docs.google.com/document/d/1SkXle9D5OfRC04Oj7iMXgY7r6eIYz_Bfk8E2Ad4O5oI/edit",
         "contact": [
             "Appu K - +91 9495428169"
         ],
@@ -475,10 +476,28 @@ const team = {
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707937130/Abhinav_A_A_-_maincoordinator_as7eee.jpg"
             }
         ],
+        "sub": [
+            {
+                "name": "Swarag Anil",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708062061/cse%20team/Swarag_skwq4v.jpg"
+            }
+        ],
         "design":[
             {
                 "name": "Suryajit Sudheeran",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707976965/cse%20team/Suryajit_m8kalw.jpg"
+            }
+        ],
+        "designs": [
+            {
+                "name": "Joel Joseph",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707979711/cse%20team/WhatsApp_Image_2024-02-15_at_12.17.01_PM_udkr1i.jpg"
+            }
+        ],
+        "vfx": [
+            {
+                "name": "Rohan V R",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059233/cse%20team/Rohan_VR_bnsyq6.jpg"
             }
         ]
     },
@@ -487,13 +506,57 @@ const team = {
         "main": [
             {
                 "name": "Appu K",
-                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707936968/cse%20team/APPU_K-MAIN_COORDINATOR_1_tlxc99.jpg"
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059755/cse%20team/Appu_K_-_Main_Coordinator_zisw2l.jpg"
+            },
+            {
+                "name": "Sanju C S",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708061074/cse%20team/Sanju_main_coordinator_ml4vwt.jpg"
             }
         ],
         "sub": [
             {
                 "name": "Athul Shaju",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934747/cse%20team/athul_shaju-sub_coordinator_oo7oh5.jpg"
+            }
+        ]
+    },
+    "marketing": {
+        "head": [
+            {
+                "name": "Neha Baju",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059923/cse%20team/Neha_Baju_ycuucg.jpg"
+            }
+        ],
+        "heads": [
+            {
+                "name": "V S Swetha",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708061208/cse%20team/IMG_20240216_105148_aasqpu.jpg"
+            }
+        ],
+        "member": [
+            {
+                "name": "Gopika Babu",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708061844/cse%20team/Gopika_Babu_dnnzjg.jpg"
+            },
+            {
+                "name": "Devapriya Rajan",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059930/cse%20team/IMG_1946_i4expo.jpg"
+            },
+            {
+                "name": "Sivakami Prasanth",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059947/cse%20team/Sivakami_Prasanth_dnbgk1.jpg"
+            },
+            {
+                "name": "Asna Haris",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708060358/cse%20team/Asna_Haris_as3luc.jpg"
+            },
+            {
+                "name": "Namitha P Menon",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708061404/cse%20team/Namitha_P_Menon_rlfjcx.jpg"
+            },
+            {
+                "name": "Ragitha G",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934726/cse%20team/RAGITHA_G_Main_Coordinator_wak29j.jpg"
             }
         ]
     },
@@ -518,6 +581,12 @@ const team = {
     },
     "codex": {
         "title": "Codex",
+        "main": [
+            {
+                "name": "Solomon Varghese",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708058914/cse%20team/Soloman_Varghese_Main_Coordinator_rwlxty.jpg"
+            }
+        ],
         "sub": [
             {
                 "name": "R Akash",
@@ -605,6 +674,12 @@ const team = {
                 "name": "Jibin C Baby",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707934741/cse%20team/Jibin_C_Baby_-_main_coordinator_p6mjky.jpg"
             }
+        ],
+        "sub": [
+            {
+                "name": "Issak Thomas",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708062277/cse%20team/WhatsApp_Image_2024-02-16_at_11.06.23_AM_cehq1v.jpg"
+            }
         ]
     },
     "c2c": {
@@ -669,6 +744,12 @@ const team = {
     },
     "udzn": {
         "title": "UDZN",
+        "main": [
+            {
+                "name": "Issak Thomas",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708062277/cse%20team/WhatsApp_Image_2024-02-16_at_11.06.23_AM_cehq1v.jpg"
+            }
+        ],
         "sub": [
             {
                 "name": "Aswin P Prakash",
@@ -688,6 +769,10 @@ const team = {
             {
                 "name": "Divya Devaraj",
                 "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1707937854/Divya_Devaraj_sub_coordinator_luykjz.jpg"
+            },
+            {
+                "name": "Gouri Rajeev",
+                "url": "https://res.cloudinary.com/dyp9x1eso/image/upload/v1708059637/cse%20team/Gouri_Rajeev_Sub_coordinator_crgafw.jpg"
             }
         ]
     },

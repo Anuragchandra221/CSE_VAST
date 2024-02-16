@@ -22,6 +22,7 @@ const images = [
 function About() {
 
   useEffect(()=>{
+    window.scrollTo(0, 0)
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
         if(entry.isIntersecting){
@@ -71,7 +72,7 @@ function About() {
             Department is one of the growing powerhouse of talent, creativity
             and some extraordinary skills. Aiming to breach new boundaries, it
             thrives in excellence. When we talk about Vyvidh, we talk about
-            Semi-Colon;we talk about Maze Runner and we talk about Respawn, 
+            Matrix, we talk about Maze Runner and we talk about Respawn, 
             which was one of the most talked about events in the town. This 
             year too, the goal is to become bigger, better and touch new 
             horizons.

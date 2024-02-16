@@ -1,7 +1,9 @@
 .coord{
     opacity: 0.6;
 }
-
+.member{
+  width: 100%;
+}
 .member-img{
     width: 100%;
     background-color: #010101;
@@ -16,6 +18,9 @@
 .member-img:hover{
     transform: scale(1.03);
     transition: 1s;
+}
+.event-head{
+  word-spacing: 0.1em;
 }
 .skeleton {
     animation: skeleton-loading 1s linear infinite alternate;
@@ -38,5 +43,8 @@
 @media screen and (min-width: 768px) {
     .member-img{
         height: 40vh;
+    }
+    .member{
+      width: 70%;
     }
 }

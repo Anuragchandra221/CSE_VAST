@@ -21,10 +21,17 @@
 .sponsorship:hover .slides{
     animation-play-state: paused ;
 }
-
+.sponsor-div::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sponsor-div {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 .slides>img{
-    height: 100px;
-    /* width: 150px; */
+    width: 150px;
+    height: auto;
 }
 .event-head{
     display: block;
@@ -39,7 +46,8 @@
 }
 @media screen and (min-width: 57px) {
     .slides>img{
-        height: 100px;
+        width: 150px;
+        height: auto;
     }
 }
 @media screen and (min-width: 768px) {
@@ -47,6 +55,7 @@
         width: 80%;
     }   
     .slides>img{
-        height: 150px;
+        width: 150px;
+        height: auto;
     }
 }

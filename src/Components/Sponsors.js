@@ -5,7 +5,7 @@ import geek from "../Assets/Images/sponsors/GEEKBOZ-BRAND-logo-2-copy.png"
 import akef from "../Assets/Images/sponsors/AKEF-LOGO-WHITE (1).png"
 import "./Sponsors.css"
 import manifold from "../Assets/Images/sponsors/LOGO- Empanelled by Govt. Of Kerala star.jpeg"
-import zohi from "../Assets/Images/sponsors/zowie.png"
+import benq from "../Assets/Images/sponsors/benq.png"
 import white from "../Assets/Images/sponsors/whitehoouse.png"
 
 function Sponsors() {
@@ -19,7 +19,7 @@ function Sponsors() {
                 <img className='mx-4 mx-lg-4 slide-img' src={geek}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={akef}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={manifold}/>
-                <img className='mx-4 mx-lg-4 slide-img' src={zohi}/>
+                <img className='mx-4 mx-lg-4 slide-img' src={benq}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={white}/>
                 {/* <img className='mx-3 slide-img' src={akef}/> */}
             </div>
@@ -29,7 +29,7 @@ function Sponsors() {
                 <img className='mx-4 mx-lg-4 slide-img' src={geek}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={akef}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={manifold}/>
-                <img className='mx-4 mx-lg-4 slide-img' src={zohi}/>
+                <img className='mx-4 mx-lg-4 slide-img' src={benq}/>
                 <img className='mx-4 mx-lg-4 slide-img' src={white}/>
                 {/* <img className='mx-3 slide-img' src={akef}/> */}
             </div>

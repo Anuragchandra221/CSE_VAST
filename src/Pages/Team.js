@@ -5,7 +5,9 @@ import Members from '../Components/Members'
 import object2 from "../Assets/Images/object2.png"
 import Footer from '../Components/Footer'
 
+window.scrollTo(0,0)
 function Team() {
+
 
     useEffect(()=>{
         const observer = new IntersectionObserver((entries)=>{
@@ -51,20 +53,20 @@ function Team() {
         <div className='py-5'></div>
         <h2 className='event-head my-5 hidden-right'>TECH COORDINATORS</h2>
         <Members data={team.tech} />
-        <h2 className='event-head my-5 hidden-right'>RESPAWN</h2>
+        <h2 className='event-head my-5 hidden-right'>RESPAWN E-SPORTS TOURNAMENTS</h2>
         <Members data={team.respawn} />
         <h2 className='event-head my-5 hidden-left'>DEVSHOWDOWN</h2>
         <Members data={team.dsd} />
-        <h2 className='event-head my-5 hidden-right'>CODEX</h2>
-        <Members data={team.codex} />
+        <h2 className='event-head my-5 hidden-right'>REFIX</h2>
+        <Members data={team.refix} />
         <h2 className='event-head my-5 hidden-left'>D_BUG</h2>
         <Members data={team.dbug} />
         <h2 className='event-head my-5 hidden-right'>DARKCODE</h2>
         <Members data={team.darkcode} />
+        <h2 className='event-head my-5 hidden-right'>CODEX</h2>
+        <Members data={team.codex} />
         <h2 className='event-head my-5 hidden-left'>QWIZZY</h2>
         <Members data={team.quiz} />
-        <h2 className='event-head my-5 hidden-right'>REFIX</h2>
-        <Members data={team.refix} />
         <h2 className='event-head my-5 hidden-left'>TYPRACE</h2>
         <Members data={team.typrace} />
         <h2 className='event-head my-5 hidden-right'>ANIMAZE</h2>
@@ -83,6 +85,8 @@ function Team() {
         <Members data={team.workshop} />
         <h2 className='event-head my-5 hidden-left'>MEDIA TEAM</h2>
         <Members data={team.media} />
+        <h2 className='event-head my-5 hidden-left'>MARKETING TEAM</h2>
+        <Members data={team.marketing} />
         <div className='py-3'></div>
         <Footer/>
     </div>

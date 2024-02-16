@@ -5,6 +5,8 @@ import gold from "../Assets/Images/Gold.png"
 import vector2 from "../Assets/Images/Group 248.png" 
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
 
 function Event(props) {
     // console.log(props)
@@ -16,12 +18,13 @@ function Event(props) {
     }
     
     useEffect(()=>{
+      window.scrollTo(0,0)
       const observer = new IntersectionObserver((entries)=>{
         entries.forEach((entry)=>{
           if(entry.isIntersecting){
             entry.target.classList.add('show')
           }else{
-            entry.target.classList.remove('show')
+            // entry.target.classList.remove('show')
           }
         })
       },[])
@@ -69,10 +72,10 @@ function Event(props) {
       <Navbar active="events" />
       <div className='py-5'></div>
       <div className="single-img mb-5">
-        <h2 className='tech-head mt-5 mb-4 text-left hidden'>{props.data.title}</h2>
-        <img className="event-img mb-4 hidden" src={props.data.img} />
+        <h2 className='tech-head mt-5 mb-4 text-left hidden-left hidden '>{props.data.title}</h2>
+        <img className="event-img mb-4  hidden-right hidden " src={props.data.img} />
         {props.data.registration?
-        <Link to={props.data.registration} target='_blank' ><button className="single-btn py-2">Register</button></Link>
+        <Link to={props.data.registration} target='_blank'  ><button className="single-btn py-2">Register</button></Link>
         
         :''}
         <div className='mb-lg-3 sevent-div mt-5 d-flex align-items-center hidden-left'> 
@@ -80,7 +83,7 @@ function Event(props) {
             </h3>
             <hr className='shead-line ' />
         </div>
-        <p className='event-para mb-3 hidden' style={{opacity: '.8'}}>{props.data.desc}</p>
+        <p className='event-para mb-3 hidden-right' style={{opacity: '.8'}}>{props.data.desc}</p>
 
         {props.data.prize?
           <>
@@ -89,13 +92,13 @@ function Event(props) {
                 <h3 className=' event-head m-0 text-left text-lg-right pl-2'>PRIZE
                 </h3>
             </div>
-            <div className='d-flex justify-content-start hidden justify-content-lg-center mt-3 mt-lg-0 align-items-center'>
+            <div className='d-flex justify-content-start hidden-left justify-content-lg-center mt-3 mt-lg-0 align-items-center'>
               <img className='prize-img' src={gold}/>
               <p className='m-0 ml-2'>Prize pool - Rs {props.data.prize}</p>
             </div>
           </>
         :''}
-        {guidelines?
+        {guidelines || props.data.rule?
         
         <div className='sevent-div mt-5 mb-3 mb-lg-3 d-flex align-items-center hidden-left'> 
               <h3 className='m-0 event-head text-left pr-2'>GUIDELINES
@@ -103,7 +106,14 @@ function Event(props) {
               <hr className='ghead-line' />
           </div>
         :""}
-            <div className='hidden'>
+        {
+          props.data.rule?
+          <div className='text-left hidden-right'>
+            <a href={props.data.rule} target='_blank'><button className='rule px-3 py-2'>Rule Book <FontAwesomeIcon icon={faArrowTrendUp} /></button></a>
+          </div>
+          :''
+        }
+            <div className='hidden-right'>
               {
                 guidelines?
                 guidelines.map((guideline)=>{
@@ -132,6 +142,7 @@ function Event(props) {
               </div>
             :''}
       </div>
+      
 
       <div className='d-flex w-100 token-div hidden my-5'> 
         <div className='token mb-5 MR-AUTO d-flex flex-column justify-content-center pl-2 p-lg-3 py-2 py-lg-4 '>

@@ -14,13 +14,13 @@ function Event_corousel() {
       <div className="slider d-flex flex-wrap mb-3 justify-content-center justify-content-lg-start">
 
           <div className="slider-img">
-              <img src={respawn} />
+              <Link onClick={()=>window.scrollTo(0,0)} to="/respawnesports"><img src={respawn} /></Link>
           </div>
           <div className="slider-img">
-              <img src={dsd} />
+              <Link onClick={()=>window.scrollTo(0,0)} to="/dsd"><img src={dsd} /></Link>
           </div>
           <div className="slider-img">
-              <img src={matrix} />
+              <Link onClick={()=>window.scrollTo(0,0)} to="/matrix"><img src={matrix} /></Link>
           </div>
       </div>
       <div className='d-flex mx-auto justify-content-end my-5 mxr-4 mr-lg-0' style={{width: '80%'}}>
