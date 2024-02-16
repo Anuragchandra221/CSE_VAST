@@ -11,6 +11,10 @@ import object2 from "../Assets/Images/object2.png"
 function EventPage() {
 
     useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
         const observer = new IntersectionObserver((entries)=>{
           entries.forEach((entry)=>{
             if(entry.isIntersecting){

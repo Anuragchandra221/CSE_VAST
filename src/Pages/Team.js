@@ -5,11 +5,14 @@ import Members from '../Components/Members'
 import object2 from "../Assets/Images/object2.png"
 import Footer from '../Components/Footer'
 
-window.scrollTo(0,0)
 function Team() {
 
 
     useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
         const observer = new IntersectionObserver((entries)=>{
           entries.forEach((entry)=>{
             if(entry.isIntersecting){

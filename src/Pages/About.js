@@ -22,7 +22,10 @@ const images = [
 function About() {
 
   useEffect(()=>{
-    window.scrollTo(0, 0)
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
     console.log('abotu')
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
