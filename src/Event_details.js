@@ -274,7 +274,7 @@ const individual = {
         "contact": [
             "Anurag Chandra - +91 7012597830"
         ],
-        "guidelines": "Each team should contain 3 members.Each member has to participate in two sub events.There is a registration fee of Rs 300.All participants are required to bring their college ID card.The winners will be awarded from a prize pool worth 35k.A total of 5 teams with the most cumulative individual points will advance to the next day.Top 3 will be awarded the prize money based on the completion of the treasure hunt.",
+        "guidelines": "Each team should contain 3 members.Each member has to participate in two sub events.There is a registration fee of Rs 300.All participants are required to bring their college ID card.The winners will be awarded from a prize pool worth 35k.A total of 5 teams with the most cumulative individual points will advance to the next day.Top 3 will be awarded the prize money based on the completion of the treasure hunt.Participation certificates will be provided",
         "sub": [
             {
                 "title": "CODEX",

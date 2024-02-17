@@ -50,7 +50,7 @@ function EventPage() {
         <h2 className='event-head my-5 '>FEATURED EVENTS</h2>
 
         <div className='mb-lg-5 event-div-main hidden-left d-flex  align-items-center'>
-            <h3 className=' tech-head '>Main Event
+            <h3 className=' tech-head text-left'>Main Event
             </h3>
             <hr className='head-line-main' />
         </div>
