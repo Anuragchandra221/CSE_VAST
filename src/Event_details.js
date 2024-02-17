@@ -184,7 +184,7 @@ const cse = {
             "venue": "NB 215",
             "faculty": "Delmy",
             "student": "Abhinav M (S4), Jeevanand P S (S8)",
-            "link": "fifa",
+            "link": "wakawaka",
             "img": fifa
         },
         {
@@ -414,8 +414,9 @@ const individual = {
         "venue": "NB 215",
         "faculty": "Delmy",
         "student": "Abhinav M (S4), Jeevanand P S (S8)",
-        "link": "fifa",
+        "link": "wakawaka",
         "img": fifaL,
+        "registration": "https://forms.gle/9dzrVXYhKD7g4e2B6",
         "contact": [
             "Abhinav M - +91 9645320295",
             "Jeevanandh P S - +91 7592093835"

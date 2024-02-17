@@ -64,7 +64,7 @@ const router = createBrowserRouter([
     element: <Event data={individual.infinity}/>
   },
   {
-    path: "/fifa",
+    path: "/wakawaka",
     element: <Event data={individual.fifa}/>
   },
   {
