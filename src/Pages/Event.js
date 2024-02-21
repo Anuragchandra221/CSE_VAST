@@ -92,11 +92,14 @@ function Event(props) {
           
         {
           props.data.sub?
-          <div className='d-flex flex-wrap justify-content-center align-items-center'>
-            {props.data.sub.map((sub, i)=>{
-              return <div  className='sub-img m-4'><img src={sub.img} /></div>
-            })}
-          </div>
+          <>
+            <h4 className='event-head mt-5 mt-lg-4 mb-0'>Sub Events</h4>
+            <div className='d-flex flex-wrap justify-content-center align-items-center'>
+              {props.data.sub.map((sub, i)=>{
+                return <div  className='sub-img m-4'><img src={sub.img} /></div>
+              })}
+            </div>
+          </>
           :''
         }
 
