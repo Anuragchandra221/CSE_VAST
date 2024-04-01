@@ -80,7 +80,7 @@ function Event(props) {
         <h2 className='tech-head mt-5 mb-4 text-left hidden-left hidden '>{props.data.title}</h2>
         <img className="event-img mb-4  hidden-right hidden " src={props.data.img} />
         {props.data.registration?
-        <Link to={props.data.registration} target='_blank'  ><button className="single-btn py-2">Register</button></Link>
+        <Link to={props.data.registration} target='_blank'  ><button className="single-btn py-2" disabled>Register</button></Link>
         
         :''}
         <div className='mb-lg-3 sevent-div mt-5 d-flex align-items-center hidden-left'> 
